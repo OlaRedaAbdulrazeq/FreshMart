@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(234, 231, 227);
+}
+.navbar-brand img{
+    height: 3rem;
+}
+.card img{
+    max-width: 9rem;
+    height: 8rem;
+    object-fit: contain;
+}
+.border-start{
+    border-left-width: 3px !important;
+}
+ 
+/* ///////////////////////////////////HERO//////////////////////// */
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url("assets/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 35rem;
+}
+@media screen and (max-width:830px){
+    .bg-image{
+     object-fit: contain;
+    }
+
+}
+/* //////////////////////////////////successful contact///////////////////////////////// */
+section img[alt="successful"]{
+    width: 7rem;
+}
+/* /////////////////////////////////// gallery /////////////////////////////////////// */
+.fit{
+   object-fit: cover;
+}
